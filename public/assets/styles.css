@@ -1,0 +1,38 @@
+#message,#handle,#send {
+  width: 100%;
+  border: #808080 1px solid;
+  padding: 5px;
+  font-size: 15px;
+  margin: 3px;
+}
+#send {
+  background: #3232ff;
+  color: #fff;
+  margin: 5px;
+}
+.bottom{
+  position: absolute;
+  bottom: 0;
+  width: 99%
+}
+body{
+  margin:0;
+}
+#chat-window {
+  background: #f8f8f8;
+  border: #c0c0c0 1px solid;
+  height: 500px;
+  float: left;
+  width: 99%;
+  margin:3px;
+  overflow-y: scroll;
+}
+#output p {
+  border: 1px solid #e0e0e0;
+  background: #f0f0f0;
+  margin: 2px;
+  padding: 5px;
+}
+#feedback p {
+  font-size: 15px;
+}

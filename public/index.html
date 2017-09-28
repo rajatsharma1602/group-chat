@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="/assets/styles.css" type="text/css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+  </head>
+  <body>
+    <h1>Chat buddies</h1>
+    <div id="grp-chat">
+      <div id="chat-window">
+        <div id="output"></div>
+        <div id="feedback"></div>
+      </div>
+      <div class="bottom">
+        <input id="handle" type="text" placeholder="handle" />
+        <input id="message" type="text" placeholder="message" />
+        <button id="send">Send</button>
+      </div>
+    </div>
+    <script src="/assets/chat.js"></script>
+  </body>
+</html>
