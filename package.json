@@ -1,0 +1,27 @@
+{
+  "name": "group-chat",
+  "version": "1.0.0",
+  "description": "chat room application using node, socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatsharma1602/group-chat.git"
+  },
+  "keywords": [
+    "chatroom",
+    "group",
+    "chat"
+  ],
+  "author": "rajat sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajatsharma1602/group-chat/issues"
+  },
+  "homepage": "https://github.com/rajatsharma1602/group-chat#readme",
+  "dependencies": {
+    "express": "^4.15.5"
+  }
+}
